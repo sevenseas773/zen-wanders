@@ -26,10 +26,11 @@ body {
     gap: 20px;               /* Space between elements */
 }
 @media (max-width: 500px) {
-    body {
-        padding: 50px;
+    h1 {
+        font-size: 4rem; /* 40px since 1rem = 10px */
     }
 }
+
 a:hover {
     opacity: 0.5;
 }
